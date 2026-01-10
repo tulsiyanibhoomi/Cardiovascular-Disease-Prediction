@@ -1,0 +1,184 @@
+{
+    "metrics": {
+        "accuracy": 0.7323471544123005,
+        "precision": 0.7483274928321121,
+        "recall": 0.6917979678986894,
+        "rocAuc": 0.8003741225849391
+    },
+    "without_heart_disease": 35021,
+    "with_heart_disease": 34979,
+    "trainTestAccuracy": {
+        "train": 73.8,
+        "test": 73.23
+    },
+    "confusionMatrix": [
+        {
+            "label": "True Negative",
+            "value": 5352
+        },
+        {
+            "label": "False Positive",
+            "value": 1580
+        },
+        {
+            "label": "False Negative",
+            "value": 2093
+        },
+        {
+            "label": "True Positive",
+            "value": 4698
+        }
+    ],
+    "learningCurve": [
+        {
+            "train_size": 4391,
+            "train_mean": 0.7565474834889546,
+            "train_std": 0.0018219084491004178,
+            "val_mean": 0.7301014834279013,
+            "val_std": 0.00228521605608885
+        },
+        {
+            "train_size": 8782,
+            "train_mean": 0.744044636757003,
+            "train_std": 0.0018674561603279295,
+            "val_mean": 0.7324698449221474,
+            "val_std": 0.003269293301531672
+        },
+        {
+            "train_size": 13173,
+            "train_mean": 0.7410916268124194,
+            "train_std": 0.0015315594276679233,
+            "val_mean": 0.7329435228628641,
+            "val_std": 0.0037494815203259137
+        },
+        {
+            "train_size": 17564,
+            "train_mean": 0.7399795035299477,
+            "train_std": 0.001316163359307642,
+            "val_mean": 0.7341823641818659,
+            "val_std": 0.004285382944799629
+        },
+        {
+            "train_size": 21956,
+            "train_mean": 0.7402259063581708,
+            "train_std": 0.0014955622601924073,
+            "val_mean": 0.7347106686773177,
+            "val_std": 0.004104083117448256
+        },
+        {
+            "train_size": 26347,
+            "train_mean": 0.7401905340266444,
+            "train_std": 0.0016198198840349193,
+            "val_mean": 0.7343645234975578,
+            "val_std": 0.004222293063737738
+        },
+        {
+            "train_size": 30738,
+            "train_mean": 0.739508100722233,
+            "train_std": 0.0008011318353371665,
+            "val_mean": 0.7352025300258956,
+            "val_std": 0.0031863151458658636
+        },
+        {
+            "train_size": 35129,
+            "train_mean": 0.7394915881465456,
+            "train_std": 0.0010727909048832429,
+            "val_mean": 0.7352572096805623,
+            "val_std": 0.004285464348808179
+        },
+        {
+            "train_size": 39520,
+            "train_mean": 0.739084008097166,
+            "train_std": 0.0008630879626971737,
+            "val_mean": 0.7352936362337075,
+            "val_std": 0.0033111119316025853
+        },
+        {
+            "train_size": 43912,
+            "train_mean": 0.7387547822918565,
+            "train_std": 0.0006443379716385792,
+            "val_mean": 0.7354029523993462,
+            "val_std": 0.00320982122130228
+        }
+    ],
+    "classificationReport": {
+        "0": {
+            "precision": 0.719,
+            "recall": 0.772,
+            "f1-score": 0.745,
+            "support": 6932.0
+        },
+        "1": {
+            "precision": 0.748,
+            "recall": 0.692,
+            "f1-score": 0.719,
+            "support": 6791.0
+        },
+        "accuracy": 0.7323471544123005,
+        "macro avg": {
+            "precision": 0.734,
+            "recall": 0.732,
+            "f1-score": 0.732,
+            "support": 13723.0
+        },
+        "weighted avg": {
+            "precision": 0.733,
+            "recall": 0.732,
+            "f1-score": 0.732,
+            "support": 13723.0
+        }
+    },
+    "calibrationCurve": {
+        "curve": [
+            {
+                "predicted": 0.08043543811018368,
+                "observed": 0.0681198910081744
+            },
+            {
+                "predicted": 0.1510018467115284,
+                "observed": 0.14921465968586387
+            },
+            {
+                "predicted": 0.25262003054539817,
+                "observed": 0.24612159329140462
+            },
+            {
+                "predicted": 0.35140748948540756,
+                "observed": 0.3538214858364511
+            },
+            {
+                "predicted": 0.4465308375451869,
+                "observed": 0.4567233384853168
+            },
+            {
+                "predicted": 0.54789172414715,
+                "observed": 0.5330909090909091
+            },
+            {
+                "predicted": 0.6439452256651036,
+                "observed": 0.6676136363636364
+            },
+            {
+                "predicted": 0.7628292603048117,
+                "observed": 0.7874396135265701
+            },
+            {
+                "predicted": 0.8445082752624907,
+                "observed": 0.8431372549019608
+            },
+            {
+                "predicted": 0.9035242567911294,
+                "observed": 1.0
+            }
+        ]
+    },
+    "algorithms": {
+        "Logistic Regression": 72.65903956860744,
+        "Naive Bayes": 69.69321576914669,
+        "K Nearest Neighbors": 69.3871602419296,
+        "Decision Tree": 72.64446549588283,
+        "Random Forest": 72.95780805946221,
+        "XGBoost": 73.05982656853458,
+        "Gradient Boosting": 73.23471544123005
+    }
+}
